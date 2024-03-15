@@ -1,7 +1,7 @@
 import sys
 import ipytest
 
-ipytest.autoconfig()
+# ipytest.autoconfig()
 
 def get_divisible_by_five(numbers):
     """Returns a list of numbers which are divisible by five in the list got as an argument"""
@@ -13,7 +13,7 @@ def get_divisible_by_five(numbers):
     return result
 
 
-%%ipytest
+# %%ipytest
 
 def test_get_divisible_by_five():
     # Your implementation here
